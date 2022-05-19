@@ -1,0 +1,33 @@
+{"intents": [
+    {"tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "how are you?", "greetings", "whats going on?", "how is it going?"],
+        "responses":["hello I am betsy", "How can i help you today?", "what is it i can do for you?", "hello is everything going okay?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["goodbye", "thank you for talking i have to go", "I am leaving", "talk to you later", "bye"],
+    "responses":["sad to see you go :(", "it was nice speaking to you", "come chat with me again anytime im here to help", "talk to you later", "hope you have a wonderful day", "Goodbye!"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name?", "what should i name you?", "who are you?", "whats your name?"],
+    "responses":["you can call me betsy!", "betsy and i am the mental health chatbot"]
+    },
+    {"tag": "age",
+    "patterns": ["how old are you?", "what is your age?", "age?"],
+    "responses":["I am an AI so i have no correct age", "my developer Tiernan oreilly is currently 24 years old"]
+    },
+    {"tag": "difficulties",
+    "patterns": ["hey i am currently feeling very alone right now", "im very depressed", "i have been so anxious lately", "i dont feel comfortable in my own skin", "i have been having thoughts about suicide", "i feel no one cares about me"],
+    "responses":["i am here to help you!, we will get through how your feeling together", "why do you think your feeling that way?", "have you felt like this before or for a really long time?", "its okay, i am here to help and there are loads of friends and family that do care about you"]
+    },
+    {"tag": "conversations",
+    "patterns": ["Yes i have felt like this in the past and i dont know what i should do", "i am struggling with school work", "i am being bullied at school and im afraid to talk to anyone", "can you help me?", "i feel fat and out of place"],
+    "responses":["im glad your speaking to me about this", "talk to a friend or family they would listen to you", "im glad you have opened up about this, it is a good step in making sure you are okay"]
+    },
+    {"tag": "more conversations",
+    "patterns": ["any techniques to help?", "what should i do?", "please help me"],
+    "responses":["calm down everything is going to be okay", "take deep breathes", "what is going on is everything okay?", "i am here to help you whatever you may need"]
+    },
+    {"tag":  "ERRORS",
+    "patterns": ["Hilpo", "uy name?"],
+    "responses": ["Sorry i Do not understand can you write again?"]}
+]}
